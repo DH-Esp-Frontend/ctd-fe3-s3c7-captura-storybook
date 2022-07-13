@@ -5,6 +5,7 @@ import NextLink from 'next/link'
 import React from 'react'
 import { StyledLink } from '../Link'
 
+//Comentario
 const Navbar = () => {
   return (
     <Box display="flex"  width="100vw"alignItems="center" bgcolor="#000" p="1rem 3rem">
@@ -21,9 +22,15 @@ const Navbar = () => {
                   Alejo Rojas
               </Typography>
               <Stack  direction="row" spacing={2}>
-                <StyledLink  href="" underline="none"  color="#fff" >Mi perfil</StyledLink>
-                <StyledLink href="" underline="none" color="#fff" >Destacados</StyledLink>
-                <StyledLink href="" underline="none" color="#fff" >Cerrar Sesion</StyledLink>
+                <NextLink href="">
+                  <StyledLink  href="" underline="none"  color="#fff" >Mi perfil</StyledLink>
+                </NextLink>
+                <NextLink href="">
+                  <StyledLink  href="" underline="none"  color="#fff" >Destacados</StyledLink>
+                </NextLink>
+                <NextLink href="">
+                  <StyledLink  href="" underline="none"  color="#fff" >Cerrar Sesion</StyledLink>
+                </NextLink>
             </Stack>
           </Box>
         </Box>
