@@ -17,7 +17,7 @@ const Navbar = () => {
               {""}
           </Avatar>
           <Box p="1rem" display="flex" flexDirection="column">
-              <Typography variant="h4" m="0" gutterBottom sx={{color: "#fff"}} component="div">
+              <Typography variant="h4" m="0" gutterBottom sx={{color: "#fff"}} >
                   Alejo Rojas
               </Typography>
               <Stack  direction="row" spacing={2}>

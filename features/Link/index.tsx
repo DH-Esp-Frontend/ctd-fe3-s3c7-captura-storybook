@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Link, LinkProps } from '@mui/material';
 
 export const StyledLink = styled(Link)<LinkProps>(({ theme }) => ({

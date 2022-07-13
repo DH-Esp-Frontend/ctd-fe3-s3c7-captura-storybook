@@ -1,11 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import BasicCard from '../features/Card'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-        <h1>Hola mundo</h1>
+        <BasicCard materia='Infraestructura IV'/>
     </div>
   )
 }
